@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "type": "House",
+    "price": 450000,
+    "bedrooms": 4,
+    "postcode": "BR1",
+    "dateAdded": "2024-01-15",
+    "location": "rsk;gjs",
+    "shortDescription": "Serenity Heights Villas",
+    "longDescription": "A beautiful detached house in a quiet residential area, featuring a large garden, modern kitchen, and excellent local amenities.",
+    "images": [
+      "./assets/3d-rendering-wooden-house.jpg",
+      "/images/house1-2.jpg",
+      "/images/house1-3.jpg",
+      "/images/house1-4.jpg",
+      "/images/house1-5.jpg",
+      "/images/house1-6.jpg"
+    ],
+    "floorPlan": "/images/house1-floorplan.jpg"
+  },
+  {
+    "id": 2,
+    "type": "Flat",
+    "price": 450000,
+    "bedrooms": 4,
+    "postcode": "BR1",
+    "dateAdded": "2024-01-15",
+    "location": "rsk;gjs",
+    "shortDescription": "Spacious 4-bedroom family home in Bromley",
+    "longDescription": "A beautiful detached house in a quiet residential area, featuring a large garden, modern kitchen, and excellent local amenities.",
+    "images": [
+      "./assets/3d-rendering-wooden-house2.jpg",
+      "/images/house1-2.jpg",
+      "/images/house1-3.jpg",
+      "/images/house1-4.jpg",
+      "/images/house1-5.jpg",
+      "/images/house1-6.jpg"
+    ],
+    "floorPlan": "/images/house1-floorplan.jpg"
+  },
+  {
+    "id": 3,
+    "type": "Flat",
+    "price": 550000,
+    "bedrooms": 6,
+    "postcode": "BR1",
+    "dateAdded": "2024-01-15",
+    "location": "rsk;gjs",
+    "shortDescription": "Spacious 4-bedroom family home in Bromley",
+    "longDescription": "A beautiful detached house in a quiet residential area, featuring a large garden, modern kitchen, and excellent local amenities.",
+    "images": [
+      "./assets/3d-rendering-wooden-house1.jpg",
+      "/images/house1-2.jpg",
+      "/images/house1-3.jpg",
+      "/images/house1-4.jpg",
+      "/images/house1-5.jpg",
+      "/images/house1-6.jpg"
+    ],
+    "floorPlan": "/images/house1-floorplan.jpg"
+  }
+]

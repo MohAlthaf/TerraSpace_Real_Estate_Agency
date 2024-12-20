@@ -1,0 +1,19 @@
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.services-header {
+  font-size: 3.5rem;
+   margin-bottom: 50px;
+}
+
+ @media (max-width: 768px) {
+  .services-header {
+    font-size: 2.5rem;
+   }
+}

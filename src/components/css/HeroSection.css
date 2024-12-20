@@ -1,0 +1,93 @@
+/* .hero-section {
+  background-image: url('../../assets/3d-rendering-wooden-house1.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+  position: relative;
+  color: white;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title {
+  font-size: 12rem;
+  font-weight: bold;
+  
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+} */
+.hero-section {
+  background-image: url('../../assets/3d-rendering-wooden-house1.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+  position: relative;
+  color: white;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title {
+  font-size: 10rem;
+  /* Default size for larger screens */
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  position: absolute;
+  bottom: 20px;
+  /* Adjusted from 0 to add a little padding */
+  left: 10%;
+  /* Center it horizontally for mobile */
+  text-align: start;
+  width: 80%;
+  /* To ensure subtitle doesn't stretch too wide */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 8rem;
+    /* Slightly smaller for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 6rem;
+    /* Further smaller for smaller screens */
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    left: 5%;
+    /* Adjust position for better spacing */
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 4rem;
+    /* Even smaller for small screens */
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    left: 0;
+    text-align: center;
+    /* Center the subtitle on mobile */
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 3rem;
+    /* Make it smaller for very small screens */
+  }
+}

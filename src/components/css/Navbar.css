@@ -1,0 +1,9 @@
+/* Center the Properties button on mobile */
+@media (max-width: 767px) {
+  .mobile-center-btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
